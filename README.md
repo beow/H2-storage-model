@@ -5,7 +5,12 @@ Upper and a lower limits around a base level for the power output are given as i
 
 It is then possible to follow the "capped" output power levels and the level of the hydrogen store over the year. If it overflows, the amount over the top is considered as "Surplus H2" that could be used for other, non power balancing, purposes. If the storage underflows, output from the combined power system simply decreases. Also if the wind power above the upper output limit exceeds the electrolysis capacity, the output will be higer than the target "capped" output.
 
-In v1.2 the constant base level can be replaced by a moving average of the windpower, in order to simulate low pass filtered power output.
+In v1.3 the output power baselines can be chosen to be either of
+- Fixed
+- Moving Average (EMA)
+- Sinus shaped
 
-![screenshot](https://pbs.twimg.com/media/FNO9Se-WUAIfpoz?format=png&name=large)
+The moving average base line simulates a "low pass filtered" power output. The sinus output may be used to fit either the yearly consumption rate or a yearly production profile.  
+
+![screenshot](https://github.com/beow/H2-storage-model/blob/main/WindH2model.jpg)
 
