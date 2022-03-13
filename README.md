@@ -14,3 +14,5 @@ The moving average base line simulates a "low pass filtered" power output. The s
 
 ![screenshot](https://github.com/beow/H2-storage-model/blob/main/WindH2model.jpg)
 
+WindPowerPlusH2storeSystem.xlsx habe data for Sweden 2020 and is hence a template for leap years. For non-leap years, the WindPowerPlusH2storeSystemSweden2021.xlsx may be used as template.
+.
