@@ -15,4 +15,10 @@ The moving average base line simulates a "low pass filtered" power output. The s
 ![screenshot](https://github.com/beow/H2-storage-model/blob/main/WindH2model.jpg)
 
 WindPowerPlusH2storeSystem.xlsx have data for Sweden 2020 and is hence a template for leap years. For non-leap years, the WindPowerPlusH2storeSystemSweden2021.xlsx may be used as template.
-.
+
+2021-03-17:
+
+Added a Wind + Water power system simulation that models a system where wind power is balanced with a water storage system to produce a stable power output. The model is based on the Swedish wind power pattern of 2021 together with other energy sources the same year and models an output that (roughly) follows the consumption pattern that year. Then it is possible to scale the windpower (with the same wind pattern) and see how water (plus a smaller component of import/export) power manages to regulate the wind power.
+
+WindPowerPlusWaterStoreSystemSweden2021.xlsx
+
