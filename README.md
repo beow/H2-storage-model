@@ -22,3 +22,8 @@ Added a Wind + Water power system simulation that models a system where wind pow
 
 WindPowerPlusWaterStoreSystemSweden2021.xlsx
 
+2021-04-04:
+
+Added a Wind + H2 simulation for Germany 2020. 
+Data from 
+Agora Energiewende (2021): Agorameter
